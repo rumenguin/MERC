@@ -1,0 +1,9 @@
+# Ignore the EmoReact folder
+EmoReact/
+
+# Ignore Python virtual environment
+venv/
+
+# Other common ignores
+*.log
+.DS_Store

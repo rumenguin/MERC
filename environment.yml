@@ -1,0 +1,23 @@
+name: merc
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - transformers
+  - accelerate
+  - datasets
+  - sentence-transformers
+  - opencv
+  - librosa
+  - scikit-learn
+  - matplotlib
+  - numpy
+  - tqdm
+  - pandas
+  - pip
+  - pip:
+      - peft

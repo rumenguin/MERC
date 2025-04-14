@@ -1,0 +1,26 @@
+# Core Libraries
+torch
+torchvision
+torchaudio
+transformers==4.39.3  # Huggingface models
+accelerate==0.27.2
+sentence-transformers==2.7.0
+datasets==2.18.0
+
+# Video + Audio Processing
+opencv-python==4.9.0.80  # For reading video frames
+librosa==0.10.1  # Audio processing
+opensmile==2.4.1  # Audio feature extraction
+
+# Model Efficiency
+peft==0.10.0  # For LoRA fine-tuning
+bitsandbytes-macos==0.42.0  # (Optional if you want quantized models on Mac)
+
+# Utilities
+scikit-learn==1.4.1.post1  # For metrics like F1-score
+matplotlib==3.8.3  # Plotting
+numpy==1.26.4
+tqdm==4.66.2  # Progress bars
+
+# Others (Safe to have)
+pandas==2.2.1
