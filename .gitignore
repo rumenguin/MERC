@@ -4,6 +4,9 @@ EmoReact/
 # Ignore Python virtual environment
 venv/
 
+# Ignore models/saved_model
+models/saved_model/
+
 # Other common ignores
 *.log
 .DS_Store
