@@ -4,8 +4,8 @@ EmoReact/
 # Ignore Python virtual environment
 venv/
 
-# Ignore models/saved_model
-models/saved_model/
+# Ignore models
+models/
 
 # Other common ignores
 *.log
